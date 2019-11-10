@@ -1,0 +1,9 @@
+Steven
+Human
+0
+warrior
+100
+sword
+20
+1
+0

@@ -1,0 +1,9 @@
+Machigai
+Dwarf
+0
+wizard
+90
+glove
+0
+1
+10
