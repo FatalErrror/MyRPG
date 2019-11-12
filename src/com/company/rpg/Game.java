@@ -10,11 +10,19 @@ public class Game {
         out.println(res.Start);
         out.println(res.Start_1);
        if ( getAnswer(new char[] {'1','2'}) == '1'){
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
            out.println(res.StartGame);
            avatar = Avatar.create();
            out.println("Вы создали своего персонажа,\nВеликого "+avatar.get_class()._class+"а,\nЧто спасёт этот мир от зла");
            res.TwoLine();
            avatar.getCharacrteristic();
+<<<<<<< HEAD
+=======
+           story.StartStory(avatar.getProgres());
+>>>>>>> master
        }else{
            res.TwoLine();
            avatar = SaveAndLoadAvatar.loadAvatar();
@@ -23,11 +31,17 @@ public class Game {
            avatar.getCharacrteristic();
            out.println("И да продолжиться история");
            res.TwoLine();
+<<<<<<< HEAD
        }
         while (avatar.progres<100) {
 
             story.StartStory(avatar.progres);
         }
+=======
+           story.StartStory(avatar.getProgres());
+       }
+
+>>>>>>> master
     }
     //============== методы ===================
     static char getAnswer(char[] Case){
