@@ -1,8 +1,0 @@
-Sato
-Elf
-10
-wizard
-100
-staff
-0
-3

@@ -1,0 +1,9 @@
+Machigai
+Dwarf
+5
+warrior
+100
+axe
+20
+1
+20
